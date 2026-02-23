@@ -1,0 +1,61 @@
+---
+title: "M02-In-depth Literate Programming"
+author: "Stephanie Gutierrez"
+date: '`r format(Sys.time())`'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    toc-expand: 2
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    
+    code-links:
+      - text: Code File
+        icon: file-code
+        href: https://stephaniegutie63.github.io/IBM-6530/
+editor: visual
+execute: 
+  freeze: auto
+---
+
+***Instructions:*** Respond to the following essay prompts.
+
+# Question 1. Everyday Life Quarto
+
+> Do you see yourself using Quarto every day for your job or studies, such as taking notes in class or preparing a presentation? More eye-catching effects will be introduced in later modules.
+
+## Question 1. Response
+
+I do see myself using Quarto regularly for both my studies and future career work. Either for organizing class notes, and data analyses for future job opportunities. Quarto will be useful to me for homework, reports, and visually pleasing notes. I enjoy the visual editng mode in Quarto but also the source editing mode to make sure that I can fix any code mistakes made when formatting.
+
+# Question 2. Video Summary
+
+> Summarize the Posit video on Quarto's capabilities.
+
+## Question 2. Response
+
+The Posit video consistent on learning Quarto which is a open source publishing system with text and code to produce different formatted documents. Lua filters give more power to execute the code steps then R markdown. The video covered Quarto's concepts, support for multiple languages besides R and compatibility with other IDE such as VS Code, R Studio, and Jupyter.
+
+A big difference in the structure that differs from R Markdown is the YAML code chunk, visual editor mode, layout tools such as Pandoc divs, callout blocks, tabsets, and interactive documents without needed a server. The rendering and publishing of the Quarto documents in Quarto Pub, GitHub Pages, Netify, and R Studio Connect. Collaboration between R and Python as well as the change in R Markdown such as syntax text formatting such as headers and code. The batteries included shows future support in additional components featured in Quarto.
+
+# Question 3.
+
+> Choose a previous class assignment in which you wrote a couple of pages. Copy it into Quarto and style it to make it nice.
+
+## Question 3. Response
+
+```         
+{{< include Question3.qmd >}}
+```
+
+# Question 4.
+
+> Publish this assignment document in an HTML file to Quarto Pub.
+
+## Question 4. Response
+
+::: callout-note
+ URL to the published page in the HTML:
+:::
