@@ -47,7 +47,11 @@ A big difference in the structure that differs from R Markdown is the YAML code 
 ## Question 3. Response
 
 ```         
-{{< include Question3.html>}}
+<iframe 
+  src="Question3.html" 
+  width="100%" 
+  height="700px">
+</iframe>
 ```
 
 # Question 4.
