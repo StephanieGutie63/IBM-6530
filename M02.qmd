@@ -14,6 +14,7 @@ format:
     code-links:
       - text: Code File
         icon: file-code
+        embedded: Question3.html
         href: https://stephaniegutie63.github.io/IBM-6530/
 editor: visual
 execute: 
@@ -46,13 +47,7 @@ A big difference in the structure that differs from R Markdown is the YAML code 
 
 ## Question 3. Response
 
-```         
-<iframe 
-  src="Question3.html" 
-  width="100%" 
-  height="700px">
-</iframe>
-```
+<iframe src="Question3.html" width="100%" height="700px"></iframe>
 
 # Question 4.
 
@@ -61,5 +56,5 @@ A big difference in the structure that differs from R Markdown is the YAML code 
 ## Question 4. Response
 
 ::: callout-note
- URL to the published page in the HTML:
+ URL to the published page in the HTML: <https://stephaniegutie63.github.io/IBM-6530/>
 :::
